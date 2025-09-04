@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+header, footer {
+  text-align: center;
+  background: #f97316;
+  color: white;
+  padding: 15px;
+}
+
+.section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* FAQ */
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+  color: #444;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+#successMsg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Dark mode */
+.dark {
+  background: #222;
+  color: #f8f8f8;
+}
+
+.dark .section {
+  background: #333;
+}
+
+.dark button {
+  background: #444;
+}

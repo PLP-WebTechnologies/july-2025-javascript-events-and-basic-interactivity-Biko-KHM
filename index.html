@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikila Keneni | Interactive Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Bikila Keneni's Interactive Page 🎉</h1>
+  </header>
+
+  <!-- Theme Toggle Section -->
+  <section class="section">
+    <h2>🌗 Theme Toggle</h2>
+    <button id="themeToggle">Switch to Dark Mode</button>
+  </section>
+
+  <!-- Counter Game -->
+  <section class="section">
+    <h2>🎮 Counter Game</h2>
+    <p>Clicks: <span id="counter">0</span></p>
+    <button id="counterBtn">Click Me!</button>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <h2>❓ FAQ</h2>
+    <div class="faq">
+      <button class="faq-question">What is this project about?</button>
+      <div class="faq-answer">This is Bikila Keneni’s interactive assignment for Week 6 🚀</div>
+    </div>
+    <div class="faq">
+      <button class="faq-question">Which technologies are used?</button>
+      <div class="faq-answer">HTML, CSS, and JavaScript DOM manipulation with event handling.</div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="section">
+    <h2>📋 Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <small class="error" id="nameError"></small>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+      <small class="error" id="emailError"></small>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+      <small class="error" id="passwordError"></small>
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" placeholder="Re-enter password">
+      <small class="error" id="confirmPasswordError"></small>
+
+      <button type="submit">Register</button>
+      <p id="successMsg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Bikila Keneni</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
